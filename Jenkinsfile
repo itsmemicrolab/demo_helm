@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USER = 'vishwacloudlab'
+        DOCKERHUB_USER = 'deepaksend'
         DOCKERHUB_cred = credentials('dockerhub-cred') // Jenkins Credential ID
         IMAGE_NAME = 'jenkins-docker-lab'
         KUBECONFIG = "/home/jenkins/.kube/config"
